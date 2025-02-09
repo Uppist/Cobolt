@@ -1,0 +1,174 @@
+/** @format */
+/* @import "../../../style.css";
+*/
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px 100px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 83px;
+}
+
+.second > h2 {
+  display: none;
+}
+
+.image {
+  background: url("../../../assets/third.svg") no-repeat;
+  background-size: contain;
+  width: 607px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about > span {
+  position: relative;
+  color: var(--color-text);
+  font-family: var(--font-inter);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about > span::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 55px;
+  height: 3px;
+  background-color: var(--color-bg);
+  border-radius: 4px;
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.p p {
+  margin: 0;
+
+  text-align: justify;
+}
+
+.span {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 100px;
+}
+
+.span > span {
+  margin-top: 20px;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+}
+
+.span > div {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 8px;
+}
+
+.span div span {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.span div p {
+  margin: 0;
+  padding: 0 15px;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.span label {
+  color: var(--color-bg);
+  text-decoration: underline;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+  .second {
+    grid-template-columns: 1fr;
+    /* padding: 50px 35px; */
+    gap: 30px;
+  }
+
+  .image {
+    width: 305px;
+    height: 350px;
+    background: url("../../../assets/thirdmobile.svg") no-repeat;
+    background-size: contain;
+  }
+
+  .second > h2 {
+    display: block;
+    margin: 0;
+    color: var(--color-bg);
+    font-family: var(--font-inter);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .about > span {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .span {
+    padding: 0;
+  }
+
+  .span > span,
+  .span div span {
+    font-size: 16px;
+  }
+
+  .span div p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .p {
+    font-size: 14px;
+  }
+}

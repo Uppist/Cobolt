@@ -1,0 +1,162 @@
+/** @format */
+/* @import "../../../style.css";
+*/
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 100px 100px 100px 0;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 83px;
+}
+
+.second > h2 {
+  display: none;
+}
+
+.image {
+  background: url("../../../assets/first.svg") no-repeat;
+  background-size: contain;
+  width: 656px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about > span {
+  position: relative;
+  color: var(--color-text);
+  font-family: var(--font-inter);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about > span::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 55px;
+  height: 3px;
+  background-color: var(--color-bg);
+  border-radius: 4px;
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.p p {
+  margin: 0;
+
+  text-align: justify;
+}
+
+.span {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 100px;
+}
+
+.span > span {
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+}
+
+.span div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.span div span {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-source);
+  color: var(--color-text);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.span label {
+  color: var(--color-bg);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    padding: 0 35px;
+  }
+  .second {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    place-items: center;
+  }
+
+  .image {
+    width: 305px;
+    height: 350px;
+    background: url("../../../assets/firstmobile.svg") no-repeat;
+    background-size: contain;
+  }
+  .about {
+    gap: 10px;
+  }
+
+  .about > span {
+    font-size: 16px;
+  }
+
+  .second > h2 {
+    display: block;
+    margin: 0;
+    color: var(--color-bg);
+    font-family: var(--font-inter);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .about h2 {
+    display: none;
+  }
+
+  .p {
+    font-size: 14px;
+  }
+
+  .span span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .span {
+    padding: 0;
+  }
+
+  .span div {
+    align-items: flex-start;
+  }
+
+  .span div span {
+    font-size: 14px;
+  }
+}
