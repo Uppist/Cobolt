@@ -26,7 +26,7 @@ export default function Values() {
 
             <div className={styles.lists}>
               <span>
-                Our <b>Core Values</b> are centred around
+                Our <b>Core Values</b> are centred around:
               </span>
               <ul>
                 <li>
