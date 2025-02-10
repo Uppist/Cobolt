@@ -151,8 +151,16 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
+  .contact {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+  }
   .image {
-    background: url("../../assets/location2.svg") no-repeat;
+    background: url(/Cobolt/src/assets/location2.svg) no-repeat;
+    height: 279px;
+    background-size: contain;
+    width: 315px;
   }
 
   .form {
@@ -186,9 +194,17 @@ form {
   textarea {
     font-size: 16px;
   }
+  form {
+    gap: 24px;
+  }
 
   .section {
     grid-template-columns: 1fr;
     margin-top: 65px;
+  }
+
+  .submit {
+    font-size: 16px;
+    padding: 12px 24px;
   }
 }

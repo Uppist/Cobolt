@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./style.module.css";
 import Image from "./Image";
 import Image2 from "./Image2";
+import { Link } from "react-router-dom";
 
 export default function Fourth() {
   const [isMobile, setIsMobile] = useState(false);
@@ -28,7 +29,10 @@ export default function Fourth() {
           Partner with <label>Cobolt</label> to
           <br /> Innovate, Grow and Succeed.
         </h2>
-        <span>Contact Us</span>
+        <Link to='/contact'>
+          {" "}
+          <span>Contact Us</span>
+        </Link>
       </div>
       <div className={styles.images}>{isMobile ? <Image2 /> : <Image />} </div>
     </section>
