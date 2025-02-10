@@ -184,7 +184,10 @@ export default function Third() {
         </div>
 
         <span>
-          View our service profile here -<label> COBIN (Cosyn) Profile.</label>
+          View our service profile here -
+          <Link to='https://drive.google.com/file/d/1-NrMse8H_zDESCCCznfTqk8O-WNzscYU/view'>
+            <label> COBIN (Cosyn) Profile.</label>
+          </Link>
         </span>
       </div>
     </section>

@@ -115,7 +115,7 @@ export default function Footer() {
           <label>Quick Links</label>
 
           <ul>
-            <Link to='/'>
+            <Link to='/Cobolt'>
               {" "}
               <li>About us</li>
             </Link>
@@ -278,8 +278,10 @@ export default function Footer() {
 
       <span>
         <Designed />
-
-        <Uppist />
+        <Link to='https://www.uppist.xyz/'>
+          {" "}
+          <Uppist />
+        </Link>
       </span>
     </footer>
   );

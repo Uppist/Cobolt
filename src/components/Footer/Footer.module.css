@@ -22,6 +22,7 @@ a {
 
 .uppist {
   width: 53px;
+  height: auto;
 }
 
 .logo {
@@ -88,9 +89,9 @@ a {
 
 .footer > span {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 2px;
-  margin-top: -70px;
+  /* margin-top: -70px; */
 }
 
 .footer2 {
@@ -159,7 +160,7 @@ a {
   }
 
   .uppist {
-    width: 25px;
+    width: 24px;
   }
   .details,
   .footer2 {
@@ -218,11 +219,13 @@ a {
   }
 
   .footer > span {
-    margin-top: -85px;
+    /* margin-top: -85px; */
+    align-items: center;
   }
 
   .design {
-    width: 40px;
+    width: 31px;
+    height: 7px;
   }
 }
 

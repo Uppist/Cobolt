@@ -63,6 +63,10 @@
     width: 327px;
     height: 264px;
   }
+
+  .contact {
+    gap: 16px;
+  }
   /* .images {
     background-image: url("../../../assets/young2.svg");
     background-size: cover;

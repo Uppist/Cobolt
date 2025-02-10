@@ -2,6 +2,7 @@
 
 import React from "react";
 import styles from "./style.module.css";
+import { Link } from "react-router-dom";
 export default function Second() {
   return (
     <section className={styles.second}>
@@ -89,7 +90,9 @@ export default function Second() {
 
             <span>
               View our service profile here -
-              <label> COBIN (Sentry) Profile.</label>
+              <Link to='https://drive.google.com/file/d/1XOscw8bH97P7vaeRiCCrh9OnwTnGnOHx/view'>
+                <label> COBIN (Sentry) Profile.</label>
+              </Link>
             </span>
           </div>
         </div>
