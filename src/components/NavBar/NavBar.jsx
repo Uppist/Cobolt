@@ -25,12 +25,12 @@ export default function NavBar({
   return (
     <header className={styles.firstsection}>
       <nav className={styles.nav}>
-        <Link to='/'>
+        <Link to='/Cobolt'>
           <LogoNav />
         </Link>
 
         <ul className={styles.navul}>
-          <Link to='/'>
+          <Link to='/Cobolt'>
             <li
               className={styles.lists}
               onClick={() => scrollToSection(aboutRef)}
@@ -98,7 +98,7 @@ export default function NavBar({
           }`}
         >
           <div className={styles.imageclose}>
-            <Link to='/'>
+            <Link to='/Cobolt'>
               <LogoNav />
             </Link>
 
@@ -122,7 +122,7 @@ export default function NavBar({
           </div>
 
           <ul className={styles.sidebarmenu}>
-            <Link to='/'>
+            <Link to='/Cobolt'>
               <li
                 className={styles.sidebarlist}
                 onClick={() => {

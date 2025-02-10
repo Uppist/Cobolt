@@ -220,6 +220,10 @@ a {
   .footer > span {
     margin-top: -85px;
   }
+
+  .design {
+    width: 40px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1250px) {

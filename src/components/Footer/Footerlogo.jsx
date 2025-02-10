@@ -3,7 +3,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
-export default function Logo() {
+export default function Footerlogo() {
   return (
     <>
       <svg
@@ -70,7 +70,7 @@ export default function Logo() {
             />
           </g>
         </g>
-      </svg>{" "}
+      </svg>
     </>
   );
 }

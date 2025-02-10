@@ -5,7 +5,9 @@ import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 
 import Uppist from "./Uppist";
-import Logo from "./Logo";
+import Designed from "./Designed";
+import Footerlogo from "./Footerlogo";
+// import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -105,7 +107,7 @@ export default function Footer() {
       <div className={styles.footer2}>
         <div>
           <Link to='/'>
-            <Logo />
+            <Footerlogo />
           </Link>
           <h2>Innovating today for a stronger tomorrow</h2>
         </div>
@@ -275,7 +277,8 @@ export default function Footer() {
       <label>© Cobolt Industries Limited 2025. All rights reserved</label>
 
       <span>
-        {/* <img src={image3} alt='' /> */}
+        <Designed />
+
         <Uppist />
       </span>
     </footer>
