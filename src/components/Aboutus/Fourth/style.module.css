@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  align-items: center;
 }
 
 .contact h2 {
@@ -58,6 +57,7 @@
 
   .contact h2 {
     font-size: 18px;
+    align-items: center;
   }
   .image {
     width: 327px;

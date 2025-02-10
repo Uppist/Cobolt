@@ -74,6 +74,7 @@
   .values {
     grid-template-columns: 1fr;
     gap: 16px;
+    place-items: center;
   }
 
   .third h2 {

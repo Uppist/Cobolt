@@ -62,6 +62,7 @@
     grid-template-columns: 1fr;
     padding: 50px 35px;
     gap: 30px;
+    place-items: center;
   }
 
   .image {
