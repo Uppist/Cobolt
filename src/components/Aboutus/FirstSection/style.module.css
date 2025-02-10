@@ -89,5 +89,6 @@
   .image {
     width: 312px;
     height: 323px;
+    grid-row: 1;
   }
 }
