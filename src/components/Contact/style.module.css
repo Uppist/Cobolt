@@ -186,7 +186,8 @@ form {
   }
 
   .menu {
-    top: 230px;
+    margin-top: 240px;
+    padding: 0;
     font-size: 18px;
   }
 

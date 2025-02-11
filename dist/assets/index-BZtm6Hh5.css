@@ -3,25 +3,25 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap";
-._firstsection_14w36_7 {
+._firstsection_151j2_7 {
   position: fixed;
   top: 0;
   z-index: 1000;
   width: -webkit-fill-available;
   box-shadow: 0 5px 7px #0000000a;
 }
-._logo_14w36_23 {
+._logo_151j2_23 {
   width: 230px;
   height: auto;
 }
-._nav_14w36_33 {
+._nav_151j2_33 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-primary);
   padding: 8px 100px;
 }
-._navul_14w36_53 {
+._navul_151j2_53 {
   display: flex;
   align-items: center;
   list-style: none;
@@ -32,21 +32,10 @@
   color: var(--color-text);
   cursor: pointer;
 }
-._navul_14w36_53 a {
+._navul_151j2_53 a {
   color: var(--color-text);
 }
-._list_14w36_85:hover {
-  border-bottom: 3px solid var(--color-bg);
-  border-radius: 3px;
-  cursor: pointer;
-}
-._lists_14w36_99:hover {
-  border-bottom: 3px solid var(--color-bg);
-  border-radius: 3px;
-  cursor: pointer;
-  padding: 8px 0;
-}
-._listcontact_14w36_113 {
+._listcontact_151j2_113 {
   background-color: var(--color-bg);
   font-size: 18px;
   font-family: var(--font-inter);
@@ -56,33 +45,33 @@
   color: var(--color-primary);
   text-transform: uppercase;
 }
-._flmobile_14w36_133,
-._listmenu_14w36_141,
-._sidebar_14w36_149 {
+._flmobile_151j2_133,
+._listmenu_151j2_141,
+._sidebar_151j2_149 {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  ._logo_14w36_23 {
+  ._logo_151j2_23 {
     width: 68px;
   }
-  ._nav_14w36_33 {
+  ._nav_151j2_33 {
     padding: 6px 24px;
   }
-  ._fllogo_14w36_171 {
+  ._fllogo_151j2_171 {
     display: none;
   }
-  ._flmobile_14w36_133 {
+  ._flmobile_151j2_133 {
     display: block;
   }
-  ._list_14w36_85,
-  ._lists_14w36_99,
-  ._listcontact_14w36_113 {
+  ._list_151j2_85,
+  ._lists_151j2_99,
+  ._listcontact_151j2_113 {
     display: none;
   }
-  ._listmenu_14w36_141 {
+  ._listmenu_151j2_141 {
     display: block;
   }
-  ._sidebar_14w36_149 {
+  ._sidebar_151j2_149 {
     background-color: #fff;
     width: 100%;
     height: 100%;
@@ -96,35 +85,35 @@
     transition: opacity 0.9s ease-in-out;
     background-size: cover;
   }
-  ._sidebar_14w36_149::-webkit-scrollbar {
+  ._sidebar_151j2_149::-webkit-scrollbar {
     display: none;
   }
-  ._active_14w36_243 {
+  ._active_151j2_243 {
     transform: translate(0);
     right: 0;
     opacity: 1;
     transition: opacity 0.9s ease-in-out;
   }
-  ._fade-out_14w36_257 {
+  ._fade-out_151j2_257 {
     transform: translate(600px);
     opacity: 0;
     transition: opacity 0.7s ease-in-out;
   }
-  ._imageclose_14w36_269 {
+  ._imageclose_151j2_269 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 32px 24px;
     box-shadow: 0 5px 7px #0000000a;
   }
-  ._sidebarmenu_14w36_285 {
+  ._sidebarmenu_151j2_285 {
     padding: 0;
     display: flex;
     flex-direction: column;
     list-style: none;
     margin: 20px 0 0;
   }
-  ._sidebarlist_14w36_303 {
+  ._sidebarlist_151j2_303 {
     padding: 12px 20px;
     font-size: 18px;
     font-weight: 600;
@@ -132,10 +121,10 @@
     font-family: var(--font-source);
     cursor: pointer;
   }
-  ._sidebarmenu_14w36_285 hr {
+  ._sidebarmenu_151j2_285 hr {
     width: -webkit-fill-available;
   }
-  ._sidebarcontact_14w36_331 {
+  ._sidebarcontact_151j2_331 {
     margin-top: 40px;
     margin-left: 30px;
     background-color: var(--color-bg);
@@ -150,10 +139,10 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1250px) {
-  ._nav_14w36_33 {
+  ._nav_151j2_33 {
     padding: 0 20px;
   }
-  ._navul_14w36_53 {
+  ._navul_151j2_53 {
     font-size: 16px;
     gap: 16px;
   }
@@ -513,41 +502,46 @@ a {
     font-size: 14px;
   }
 }
-._section_bfuso_9 {
+._section_yrg2o_9 {
   margin-top: 100px;
   padding: 0 100px;
 }
-._third_bfuso_19 {
+._third_yrg2o_19 {
   display: flex;
   justify-content: space-between;
   gap: 83px;
 }
-._third_bfuso_19 > h2 {
+._third_yrg2o_19 > h2 {
   display: none;
 }
-._values_bfuso_39 {
+._values_yrg2o_39 {
   display: grid;
   grid-template-columns: 6fr 1fr;
   align-items: start;
 }
-._value_bfuso_39 h2 {
+._value_yrg2o_39 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+._value_yrg2o_39 h2 {
   margin: 0;
   color: var(--color-bg);
   font-family: var(--font-inter);
   font-size: 48px;
   font-weight: 500;
 }
-._value_bfuso_39 p {
+._value_yrg2o_39 p {
   font-family: var(--font-source);
   color: var(--color-text);
   font-size: 24px;
   font-weight: 400;
 }
-._value_bfuso_39 p span,
-._lists_bfuso_83 ul span {
+._value_yrg2o_39 p span,
+._lists_yrg2o_91 ul span {
   color: var(--color-bg);
 }
-._lists_bfuso_83 {
+._lists_yrg2o_91 {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -556,27 +550,27 @@ a {
   font-size: 24px;
   font-weight: 400;
 }
-._lists_bfuso_83 ul {
+._lists_yrg2o_91 ul {
   margin: 20px 0 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 @media only screen and (max-width: 768px) {
-  ._section_bfuso_9 {
+  ._section_yrg2o_9 {
     padding: 0 30px;
     margin-top: 50px;
   }
-  ._third_bfuso_19 {
+  ._third_yrg2o_19 {
     gap: 40px;
     flex-direction: column;
   }
-  ._values_bfuso_39 {
+  ._values_yrg2o_39 {
     grid-template-columns: 1fr;
     gap: 16px;
     place-items: center;
   }
-  ._third_bfuso_19 h2 {
+  ._third_yrg2o_19 h2 {
     display: block;
     margin: 0;
     color: var(--color-bg);
@@ -585,26 +579,27 @@ a {
     font-weight: 500;
     text-align: center;
   }
-  ._value_bfuso_39 {
+  ._value_yrg2o_39 {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
-  ._value_bfuso_39 h2 {
+  ._value_yrg2o_39 h2 {
     display: none;
   }
-  ._value_bfuso_39 p {
+  ._value_yrg2o_39 p {
     font-size: 16px;
   }
-  ._image_bfuso_203 {
+  ._image_yrg2o_211 {
     grid-row: 1;
     width: 298px;
     height: 246px;
   }
-  ._lists_bfuso_83 {
+  ._lists_yrg2o_91 {
     font-size: 16px;
+    gap: 4px;
   }
-  ._lists_bfuso_83 ul {
+  ._lists_yrg2o_91 ul {
     gap: 8px;
     margin-top: 10px;
   }

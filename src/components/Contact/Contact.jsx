@@ -8,7 +8,6 @@ import "react-toastify/dist/ReactToastify.css";
 import styles from "./style.module.css";
 
 import { ToastContainer, toast } from "react-toastify";
-import Image from "./Image";
 
 export default function Contact() {
   const form = useRef();
