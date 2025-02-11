@@ -8,6 +8,22 @@ export default defineConfig({
   plugins: [react()],
   base: "/Cobolt/",
   server: {
-    middlewareMode: true,
+    historyApiFallback: true,
+    open: true,
+  },
+
+  build: {
+    outDir: "dist",
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+
+  preview: {
+    port: 4173,
+    strictPort: true,
+    historyApiFallback: true,
   },
 });
