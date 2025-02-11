@@ -23,7 +23,7 @@ p {
 }
 
 .image {
-  background: url("../../../assets/third.svg") no-repeat;
+  background: url("../../../assets/third.png") no-repeat;
   background-size: contain;
   width: 607px;
 }
@@ -135,7 +135,7 @@ p {
   .image {
     width: 305px;
     height: 350px;
-    background: url("../../../assets/thirdmobile.svg") no-repeat;
+    background: url("../../../assets/thirdmobile.png") no-repeat;
     background-size: contain;
   }
 
