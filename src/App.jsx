@@ -11,7 +11,7 @@ export default function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path='/Cobolt' element={<Aboutus />} />
+          <Route path='/' element={<Aboutus />} />
           <Route path='projects' element={<Project />} />
           <Route path='contact' element={<Contactus />} />
         </Routes>
