@@ -8,6 +8,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/Cobolt/",
   server: {
-    historyApiFallback: true,
+    middlewareMode: true,
   },
 });
