@@ -22,7 +22,11 @@
   grid-template-columns: 6fr 1fr;
   align-items: start;
 }
-
+.value {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .value h2 {
   margin: 0;
   color: var(--color-bg);
@@ -107,6 +111,7 @@
 
   .lists {
     font-size: 16px;
+    gap: 4px;
   }
 
   .lists ul {
